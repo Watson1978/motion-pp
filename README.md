@@ -14,16 +14,26 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install motion-pp
+    $ [sudo] gem install motion-pp
 
 ## Usage
 
-TODO: Write usage instructions here
 
-## Contributing
+This gem can be used in Rakefile of your RubyMotion project by requiring.
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    require 'motion-pp'
+
+
+And then, you would write the code, like:
+
+```ruby
+  ary = Array.new(5) { {:foobar => :baz} }
+  pp ary
+  #=> [{:foobar=>:baz},
+       {:foobar=>:baz},
+       {:foobar=>:baz},
+       {:foobar=>:baz},
+       {:foobar=>:baz}]
+```
+
+This library provides the same APIs as standard Ruby. You could see the APIs references at http://ruby-doc.org/stdlib-1.9.3/libdoc/pp/rdoc/

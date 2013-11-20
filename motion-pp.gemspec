@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["watson1978@gmail.com"]
   spec.description   = %q{Pretty-printer for RubyMotion objects.}
   spec.summary       = %q{Pretty-printer for RubyMotion objects.}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.homepage      = "https://github.com/Watson1978/motion-pp"
+  spec.license       = "Ruby"
 
   files = []
   files << 'README.md'
